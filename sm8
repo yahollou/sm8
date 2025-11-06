@@ -1,0 +1,49 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+	setlocale(0, "");
+	int a;
+	int b;
+	cout << "[ + ] Переводчик" << endl;
+	cout << "[ 1 ] Русские слова" << endl;
+	cout << "[ 2 ] Английские слова" << endl;
+	cout << "[ 3 ] Выйти" << endl;
+	cout << "выберите действие ";
+	cin >> a;
+	switch (a) {
+	case 1:cout << "1.дорога. 2.стол. 3.дверь. 4.кровать. 5.число. 6.телефон. 7.день. 8.окно. 9.собака. 10.помидор. 11.топор. 12.учитель. 13.яблоко. 14.класс. 15.карандаш. ";
+		break;
+	case 2:cout << "1.road. 2.table. 3.door. 4.bed. 5.number. 6.phone. 7.day. 8.window. 9.dog. 10.tomato. 11.axe. 12.teacher. 13.apple. 14.class. 15.pencil."; 
+		break;
+
+	case 3:return 0;
+	default:
+		cout << "вы ввели неправельное действие";
+
+		cin >> b;
+
+		switch (b) {
+		case 1:cout << "Перевод : дорога - road"; break;
+		case 2:cout << "Перевод : стол - table"; break;
+		case 3:cout << "Перевод : дверь - door"; break;
+		case 4:cout << "Перевод : кровать - bed"; break;
+		case 5:cout << "Перевод : число - number"; break;
+		case 6:cout << "Перевод : телефон - phone"; break;
+		case 7:cout << "Перевод : день - day"; break;
+		case 8:cout << "Перевод : окно - window"; break;
+		case 9:cout << "Перевод : собака - dog"; break;
+		case 10:cout << "Перевод : помидор - tomato"; break;
+		case 11:cout << "Перевод : топор - axe"; break;
+		case 12:cout << "Перевод : учитель - teacher"; break;
+		case 13:cout << "Перевод : яблоко - apple"; break;
+		case 14:cout << "Перевод : класс - class"; break;
+		case 15:cout << "Перевод : карандаш - pencil"; break;
+
+		}
+		
+		 
+	}
+
+
+}
